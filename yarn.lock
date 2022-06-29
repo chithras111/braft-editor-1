@@ -2051,15 +2051,6 @@
     "strip-ansi" "^5.2.0"
     "wrap-ansi" "^5.1.0"
 
-"clone-deep@^4.0.1":
-  "integrity" "sha512-neHB9xuzh/wk0dIHweyAXv2aPGZIVk3pLMe+/RNzINf17fe0OG96QroktYAUm7SM1PBnzTabaLboqqxDyMU+SQ=="
-  "resolved" "https://registry.npmjs.org/clone-deep/-/clone-deep-4.0.1.tgz"
-  "version" "4.0.1"
-  dependencies:
-    "is-plain-object" "^2.0.4"
-    "kind-of" "^6.0.2"
-    "shallow-clone" "^3.0.0"
-
 "coa@^2.0.2":
   "integrity" "sha512-q5/jG+YQnSy4nRTV4F7lPepBJZ8qBNJJDBuJdoejDyLXgmL7IEo+Le2JDZudFTFt7mrCqIRaSjws4ygRCTCAXA=="
   "resolved" "https://registry.npmjs.org/coa/-/coa-2.0.2.tgz"
@@ -5005,6 +4996,11 @@
   "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
   "version" "6.0.3"
 
+"klona@^2.0.4":
+  "integrity" "sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ=="
+  "resolved" "https://registry.npmjs.org/klona/-/klona-2.0.5.tgz"
+  "version" "2.0.5"
+
 "last-call-webpack-plugin@^3.0.0":
   "integrity" "sha512-7KI2l2GIZa9p2spzPIVZBYyNKkN+e/SQPpnjlTiPhdbDW3F86tdKKELxKpzJ5sgU19wQWsACULZmpTPYHeWO5w=="
   "resolved" "https://registry.npmjs.org/last-call-webpack-plugin/-/last-call-webpack-plugin-3.0.0.tgz"
@@ -5068,7 +5064,7 @@
   "resolved" "https://registry.npm.taobao.org/loader-runner/download/loader-runner-2.4.0.tgz"
   "version" "2.4.0"
 
-"loader-utils@^1.0.1", "loader-utils@^1.0.2", "loader-utils@^1.1.0", "loader-utils@^1.2.3", "loader-utils@1.2.3":
+"loader-utils@^1.0.2", "loader-utils@^1.1.0", "loader-utils@^1.2.3", "loader-utils@1.2.3":
   "integrity" "sha1-H/XcaRHJ8KBiUxpMBLYJQGEIwsc="
   "resolved" "https://registry.npm.taobao.org/loader-utils/download/loader-utils-1.2.3.tgz"
   "version" "1.2.3"
@@ -5533,10 +5529,10 @@
   "resolved" "https://registry.npmjs.org/negotiator/-/negotiator-0.6.2.tgz"
   "version" "0.6.2"
 
-"neo-async@^2.5.0":
-  "integrity" "sha1-rCetpmFn+ohJpq3dg39rGJrSCBw="
-  "resolved" "https://registry.npm.taobao.org/neo-async/download/neo-async-2.6.1.tgz"
-  "version" "2.6.1"
+"neo-async@^2.5.0", "neo-async@^2.6.2":
+  "integrity" "sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw=="
+  "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
+  "version" "2.6.2"
 
 "nice-try@^1.0.4":
   "integrity" "sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ=="
@@ -7277,16 +7273,13 @@
     "scss-tokenizer" "^0.2.3"
     "yargs" "^13.3.2"
 
-"sass-loader@^7.3.1":
-  "integrity" "sha512-tuU7+zm0pTCynKYHpdqaPpe+MMTQ76I9TPZ7i4/5dZsigE350shQWe5EZNl5dBidM49TPET75tNqRbcsUZWeNA=="
-  "resolved" "https://registry.npmjs.org/sass-loader/-/sass-loader-7.3.1.tgz"
-  "version" "7.3.1"
+"sass-loader@^11.1.0":
+  "integrity" "sha512-fOCp/zLmj1V1WHDZbUbPgrZhA7HKXHEqkslzB+05U5K9SbSbcmH91C7QLW31AsXikxUMaxXRhhcqWZAxUMLDyA=="
+  "resolved" "https://registry.npmjs.org/sass-loader/-/sass-loader-11.1.1.tgz"
+  "version" "11.1.1"
   dependencies:
-    "clone-deep" "^4.0.1"
-    "loader-utils" "^1.0.1"
-    "neo-async" "^2.5.0"
-    "pify" "^4.0.1"
-    "semver" "^6.3.0"
+    "klona" "^2.0.4"
+    "neo-async" "^2.6.2"
 
 "sax@~1.2.4":
   "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
@@ -7508,13 +7501,6 @@
   dependencies:
     "inherits" "^2.0.1"
     "safe-buffer" "^5.0.1"
-
-"shallow-clone@^3.0.0":
-  "integrity" "sha512-/6KqX+GVUdqPuPPd2LxDDxzX6CAbjJehAAOKlNpqqUpAqPM6HeL8f+o3a+JsyGjn2lv0WY8UsTgUJjU9Ok55NA=="
-  "resolved" "https://registry.npmjs.org/shallow-clone/-/shallow-clone-3.0.1.tgz"
-  "version" "3.0.1"
-  dependencies:
-    "kind-of" "^6.0.2"
 
 "shallowequal@^1.1.0":
   "integrity" "sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ=="
