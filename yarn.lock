@@ -2852,7 +2852,7 @@
     "immutable" "~3.7.4"
     "object-assign" "^4.1.1"
 
-"draftjs-utils@0.10.2":
+"draftjs-utils@^0.10.2":
   "integrity" "sha512-EstHqr3R3JVcilJrBaO/A+01GvwwKmC7e4TCjC7S94ZeMh4IVmf60OuQXtHHpwItK8C2JCi3iljgN5KHkJboUg=="
   "resolved" "https://registry.npmjs.org/draftjs-utils/-/draftjs-utils-0.10.2.tgz"
   "version" "0.10.2"
