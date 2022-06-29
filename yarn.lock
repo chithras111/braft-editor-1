@@ -7788,10 +7788,10 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^4.12.0":
-  "integrity" "sha1-riAdRfBXEzbkLRwrXIq1bE07DGM="
-  "resolved" "https://registry.npm.taobao.org/webpack/download/webpack-4.31.0.tgz"
-  "version" "4.31.0"
+"webpack@4.29.6":
+  "integrity" "sha512-MwBwpiE1BQpMDkbnUUaW6K8RFZjljJHArC6tWQJoFm0oQtfoSebtg4Y7/QHnJ/SddtjYLHaKGX64CFjG5rehJw=="
+  "resolved" "https://registry.npmjs.org/webpack/-/webpack-4.29.6.tgz"
+  "version" "4.29.6"
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
