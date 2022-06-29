@@ -2143,7 +2143,7 @@
   "resolved" "https://registry.npmjs.org/core-js/-/core-js-1.2.7.tgz"
   "version" "1.2.7"
 
-"core-js@^2.4.0":
+"core-js@^2.4.0", "core-js@^2.4.1":
   "integrity" "sha1-AOtta/gVRxzBbYVj7dfTh4bexQs="
   "resolved" "https://registry.npm.taobao.org/core-js/download/core-js-2.6.6.tgz"
   "version" "2.6.6"
@@ -2731,12 +2731,21 @@
     "extend" "^3.0.0"
     "immutable" "*"
 
-"draft-js@^0.10.3", "draft-js@0.10.5":
+"draft-js@^0.10.3":
   "integrity" "sha512-LE6jSCV9nkPhfVX2ggcRLA4FKs6zWq9ceuO/88BpXdNCS7mjRTgs0NsV6piUCJX9YxMsB9An33wnkMmU2sD2Zg=="
   "resolved" "https://registry.npmjs.org/draft-js/-/draft-js-0.10.5.tgz"
   "version" "0.10.5"
   dependencies:
     "fbjs" "^0.8.15"
+    "immutable" "~3.7.4"
+    "object-assign" "^4.1.0"
+
+"draft-js@0.11.0":
+  "integrity" "sha512-kNVaI3rLiNUSXoCuc5OxOQfzvtFEsOhRgWVHz5nU4b1APvYiOnY5Y2H76ZmB5990//cZysul09FbnzP+YAKNJA=="
+  "resolved" "https://registry.npmjs.org/draft-js/-/draft-js-0.11.0.tgz"
+  "version" "0.11.0"
+  dependencies:
+    "fbjs" "^1.0.0"
     "immutable" "~3.7.4"
     "object-assign" "^4.1.0"
 
@@ -3344,6 +3353,11 @@
   dependencies:
     "websocket-driver" ">=0.5.1"
 
+"fbjs-css-vars@^1.0.0":
+  "integrity" "sha512-b2XGFAFdWZWg0phtAWLHCk836A1Xann+I+Dgd3Gk64MHKZO44FfoD1KxyvbSh0qZsIoXQGGlVztIY+oitJPpRQ=="
+  "resolved" "https://registry.npmjs.org/fbjs-css-vars/-/fbjs-css-vars-1.0.2.tgz"
+  "version" "1.0.2"
+
 "fbjs@^0.8.15":
   "integrity" "sha512-EQaWFK+fEPSoibjNy8IxUtaFOMXcWsY0JaVrQoZR9zC8N2Ygf9iDITPWjUTVIax95b6I742JFLqASHfsag/vKA=="
   "resolved" "https://registry.npmjs.org/fbjs/-/fbjs-0.8.18.tgz"
@@ -3356,6 +3370,20 @@
     "promise" "^7.1.1"
     "setimmediate" "^1.0.5"
     "ua-parser-js" "^0.7.30"
+
+"fbjs@^1.0.0":
+  "integrity" "sha512-MUgcMEJaFhCaF1QtWGnmq9ZDRAzECTCRAF7O6UZIlAlkTs1SasiX9aP0Iw7wfD2mJ7wDTNfg2w7u5fSCwJk1OA=="
+  "resolved" "https://registry.npmjs.org/fbjs/-/fbjs-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "core-js" "^2.4.1"
+    "fbjs-css-vars" "^1.0.0"
+    "isomorphic-fetch" "^2.1.1"
+    "loose-envify" "^1.0.0"
+    "object-assign" "^4.1.0"
+    "promise" "^7.1.1"
+    "setimmediate" "^1.0.5"
+    "ua-parser-js" "^0.7.18"
 
 "figgy-pudding@^3.5.1":
   "integrity" "sha1-hiRwESkBxyeg5JWoB0S9W6odZ5A="
@@ -7558,7 +7586,7 @@
   "resolved" "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
-"ua-parser-js@^0.7.30":
+"ua-parser-js@^0.7.18", "ua-parser-js@^0.7.30":
   "integrity" "sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ=="
   "resolved" "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.31.tgz"
   "version" "0.7.31"
