@@ -2296,11 +2296,6 @@
   "resolved" "https://registry.npm.taobao.org/core-js/download/core-js-2.6.6.tgz"
   "version" "2.6.6"
 
-"core-js@^3.6.4":
-  "integrity" "sha512-oAKwkj9xcWNBAvGbT//WiCdOMpb9XQG92/Fe3ABFM/R16BsHgePG00mFOgKf7IsCtfj8tA1kHtf/VwErhriz5Q=="
-  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.23.3.tgz"
-  "version" "3.23.3"
-
 "core-util-is@~1.0.0":
   "integrity" "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac="
   "resolved" "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
@@ -2353,13 +2348,6 @@
   "version" "7.0.3"
   dependencies:
     "cross-spawn" "^7.0.1"
-
-"cross-fetch@^3.0.4":
-  "integrity" "sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw=="
-  "resolved" "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.5.tgz"
-  "version" "3.1.5"
-  dependencies:
-    "node-fetch" "2.6.7"
 
 "cross-spawn@^6.0.5":
   "integrity" "sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ=="
@@ -2810,7 +2798,7 @@
   dependencies:
     "is-obj" "^2.0.0"
 
-"draft-convert@^2.0.0", "draft-convert@^2.1.12":
+"draft-convert@^2.0.0":
   "integrity" "sha512-6Bt338J+ZA00OLlzHipd0ZcQCCrVEM0vCyXb/eDlLdY89mmQ4XWkflSD9vql8TzVJ5ENk4s8cywMO9YTaTnZyg=="
   "resolved" "https://registry.npmjs.org/draft-convert/-/draft-convert-2.1.12.tgz"
   "version" "2.1.12"
@@ -2843,16 +2831,16 @@
     "immutable" "~3.7.4"
     "object-assign" "^4.1.0"
 
-"draft-js@^0.11.7":
-  "integrity" "sha512-ne7yFfN4sEL82QPQEn80xnADR8/Q6ALVworbC5UOSzOvjffmYfFsr3xSZtxbIirti14R7Y33EZC5rivpLgIbsg=="
-  "resolved" "https://registry.npmjs.org/draft-js/-/draft-js-0.11.7.tgz"
-  "version" "0.11.7"
+"draft-js@0.10.2":
+  "integrity" "sha512-+KTi6suydcAu4UKFGpZVWx0Oihpb87OepxPeiaLwregxyZ/38zEHi6rC4+8VnmzNI/F6u6VjJhXpdef++OPBdw=="
+  "resolved" "https://registry.npmjs.org/draft-js/-/draft-js-0.10.2.tgz"
+  "version" "0.10.2"
   dependencies:
-    "fbjs" "^2.0.0"
+    "fbjs" "^0.8.12"
     "immutable" "~3.7.4"
-    "object-assign" "^4.1.1"
+    "object-assign" "^4.1.0"
 
-"draftjs-utils@^0.10.2":
+"draftjs-utils@0.10.2":
   "integrity" "sha512-EstHqr3R3JVcilJrBaO/A+01GvwwKmC7e4TCjC7S94ZeMh4IVmf60OuQXtHHpwItK8C2JCi3iljgN5KHkJboUg=="
   "resolved" "https://registry.npmjs.org/draftjs-utils/-/draftjs-utils-0.10.2.tgz"
   "version" "0.10.2"
@@ -3449,12 +3437,7 @@
   dependencies:
     "websocket-driver" ">=0.5.1"
 
-"fbjs-css-vars@^1.0.0":
-  "integrity" "sha512-b2XGFAFdWZWg0phtAWLHCk836A1Xann+I+Dgd3Gk64MHKZO44FfoD1KxyvbSh0qZsIoXQGGlVztIY+oitJPpRQ=="
-  "resolved" "https://registry.npmjs.org/fbjs-css-vars/-/fbjs-css-vars-1.0.2.tgz"
-  "version" "1.0.2"
-
-"fbjs@^0.8.15":
+"fbjs@^0.8.12", "fbjs@^0.8.15":
   "integrity" "sha512-EQaWFK+fEPSoibjNy8IxUtaFOMXcWsY0JaVrQoZR9zC8N2Ygf9iDITPWjUTVIax95b6I742JFLqASHfsag/vKA=="
   "resolved" "https://registry.npmjs.org/fbjs/-/fbjs-0.8.18.tgz"
   "version" "0.8.18"
@@ -3466,20 +3449,6 @@
     "promise" "^7.1.1"
     "setimmediate" "^1.0.5"
     "ua-parser-js" "^0.7.30"
-
-"fbjs@^2.0.0":
-  "integrity" "sha512-8XA8ny9ifxrAWlyhAbexXcs3rRMtxWcs3M0lctLfB49jRDHiaxj+Mo0XxbwE7nKZYzgCFoq64FS+WFd4IycPPQ=="
-  "resolved" "https://registry.npmjs.org/fbjs/-/fbjs-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "core-js" "^3.6.4"
-    "cross-fetch" "^3.0.4"
-    "fbjs-css-vars" "^1.0.0"
-    "loose-envify" "^1.0.0"
-    "object-assign" "^4.1.0"
-    "promise" "^7.1.1"
-    "setimmediate" "^1.0.5"
-    "ua-parser-js" "^0.7.18"
 
 "figgy-pudding@^3.5.1":
   "integrity" "sha1-hiRwESkBxyeg5JWoB0S9W6odZ5A="
@@ -4123,15 +4092,15 @@
   "resolved" "https://registry.npmjs.org/ignore/-/ignore-5.1.4.tgz"
   "version" "5.1.4"
 
-"immutable@*", "immutable@^4.0.0", "immutable@^4.1.0":
-  "integrity" "sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ=="
-  "resolved" "https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz"
-  "version" "4.1.0"
-
-"immutable@~3.7.4":
+"immutable@*", "immutable@~3.7.4":
   "integrity" "sha512-AizQPcaofEtO11RZhPPHBOJRdo/20MKQF9mBLnVkBoyHi1/zXK8fzVdnEpSV9gxqtnh6Qomfp3F0xT5qP/vThw=="
   "resolved" "https://registry.npmjs.org/immutable/-/immutable-3.7.6.tgz"
   "version" "3.7.6"
+
+"immutable@^4.0.0":
+  "integrity" "sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ=="
+  "resolved" "https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz"
+  "version" "4.1.0"
 
 "import-fresh@^2.0.0":
   "integrity" "sha1-2BNVwVYS04bGH53dOSLUMEgipUY="
@@ -5152,13 +5121,6 @@
   dependencies:
     "encoding" "^0.1.11"
     "is-stream" "^1.0.1"
-
-"node-fetch@2.6.7":
-  "integrity" "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
-  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
-  "version" "2.6.7"
-  dependencies:
-    "whatwg-url" "^5.0.0"
 
 "node-forge@^1":
   "integrity" "sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA=="
@@ -7460,11 +7422,6 @@
   "resolved" "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz"
   "version" "1.0.1"
 
-"tr46@~0.0.3":
-  "integrity" "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw=="
-  "resolved" "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
-  "version" "0.0.3"
-
 "tslib@^1.10.0":
   "integrity" "sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.11.1.tgz"
@@ -7510,7 +7467,7 @@
   "resolved" "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
-"ua-parser-js@^0.7.18", "ua-parser-js@^0.7.30":
+"ua-parser-js@^0.7.30":
   "integrity" "sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ=="
   "resolved" "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.31.tgz"
   "version" "0.7.31"
@@ -7737,11 +7694,6 @@
   dependencies:
     "minimalistic-assert" "^1.0.0"
 
-"webidl-conversions@^3.0.0":
-  "integrity" "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="
-  "resolved" "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
-  "version" "3.0.1"
-
 "webpack-cli@^4.10.0":
   "integrity" "sha512-NLhDfH/h4O6UOy+0LSso42xvYypClINuMNBVVzX4vX98TmTaTUxwRbXdhucbFMd2qLaCTcLq/PdYrvi8onw90w=="
   "resolved" "https://registry.npmjs.org/webpack-cli/-/webpack-cli-4.10.0.tgz"
@@ -7887,14 +7839,6 @@
   "integrity" "sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA=="
   "resolved" "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz"
   "version" "3.6.2"
-
-"whatwg-url@^5.0.0":
-  "integrity" "sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw=="
-  "resolved" "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
-  "version" "5.0.0"
-  dependencies:
-    "tr46" "~0.0.3"
-    "webidl-conversions" "^3.0.0"
 
 "which-boxed-primitive@^1.0.2":
   "integrity" "sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg=="
