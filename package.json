@@ -80,19 +80,19 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.8.7",
+    "@babel/runtime": "^7.18.3",
     "@maximusft/mergeclassnames": "github:MaximusFT/mergeClassNames",
-    "braft-convert": "^2.3.0",
+    "braft-convert": "2.3.0",
     "braft-extensions": "beta",
-    "braft-finder": "0.0.21",
-    "braft-utils": "^3.0.8",
-    "draft-convert": "^2.1.8",
-    "draft-js": "^0.11.5",
-    "draft-js-multidecorators": "^1.0.0",
-    "draftjs-utils": "^0.10.2",
-    "immutable": "~3.8.2",
+    "braft-finder": "0.0.19",
+    "braft-utils": "3.0.12",
+    "draft-convert": "2.1.12",
+    "draft-js": "^0.10.5",
+    "draft-js-multidecorators": "1.0.0",
+    "draftjs-utils": "^0.9.4",
+    "immutable": "3.7.6",
     "prop-types": "^15.7.2",
     "react-color": "^2.14.1",
-    "uuid": "^7.0.2"
+    "uuid": "3.4.0"
   }
 }
