@@ -2731,21 +2731,12 @@
     "extend" "^3.0.0"
     "immutable" "*"
 
-"draft-js@^0.10.3":
+"draft-js@^0.10.3", "draft-js@0.10.5":
   "integrity" "sha512-LE6jSCV9nkPhfVX2ggcRLA4FKs6zWq9ceuO/88BpXdNCS7mjRTgs0NsV6piUCJX9YxMsB9An33wnkMmU2sD2Zg=="
   "resolved" "https://registry.npmjs.org/draft-js/-/draft-js-0.10.5.tgz"
   "version" "0.10.5"
   dependencies:
     "fbjs" "^0.8.15"
-    "immutable" "~3.7.4"
-    "object-assign" "^4.1.0"
-
-"draft-js@0.10.0":
-  "integrity" "sha512-GEUg/WRVoef5hcO7yLiYr7LehWnGe3EvcDJCZzRjuqlpNKJ8Q4tdqqwEoWVAjd6ryUJlJQ3mPwEe63GsaiGIQg=="
-  "resolved" "https://registry.npmjs.org/draft-js/-/draft-js-0.10.0.tgz"
-  "version" "0.10.0"
-  dependencies:
-    "fbjs" "^0.8.7"
     "immutable" "~3.7.4"
     "object-assign" "^4.1.0"
 
@@ -3353,7 +3344,7 @@
   dependencies:
     "websocket-driver" ">=0.5.1"
 
-"fbjs@^0.8.15", "fbjs@^0.8.7":
+"fbjs@^0.8.15":
   "integrity" "sha512-EQaWFK+fEPSoibjNy8IxUtaFOMXcWsY0JaVrQoZR9zC8N2Ygf9iDITPWjUTVIax95b6I742JFLqASHfsag/vKA=="
   "resolved" "https://registry.npmjs.org/fbjs/-/fbjs-0.8.18.tgz"
   "version" "0.8.18"
@@ -6281,15 +6272,15 @@
     "reactcss" "^1.2.0"
     "tinycolor2" "^1.4.1"
 
-"react-dom@^16.13.0":
-  "integrity" "sha512-y09d2c4cG220DzdlFkPTnVvGTszVvNpC73v+AaLGLHbkpy3SSgvYq8x0rNwPJ/Rk/CicTNgk0hbHNw1gMEZAXg=="
-  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.13.0.tgz"
-  "version" "16.13.0"
+"react-dom@16.14.0":
+  "integrity" "sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw=="
+  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz"
+  "version" "16.14.0"
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
     "prop-types" "^15.6.2"
-    "scheduler" "^0.19.0"
+    "scheduler" "^0.19.1"
 
 "react-hot-loader@^4.12.19":
   "integrity" "sha512-p8AnA4QE2GtrvkdmqnKrEiijtVlqdTIDCHZOwItkI9kW51bt5XnQ/4Anz8giiWf9kqBpEQwsmnChDCAFBRyR/Q=="
@@ -6315,10 +6306,10 @@
   "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
   "version" "3.0.4"
 
-"react@^16.13.0":
-  "integrity" "sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ=="
-  "resolved" "https://registry.npmjs.org/react/-/react-16.13.0.tgz"
-  "version" "16.13.0"
+"react@16.14.0":
+  "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
+  "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
+  "version" "16.14.0"
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
@@ -6691,10 +6682,10 @@
   "resolved" "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
   "version" "1.2.4"
 
-"scheduler@^0.19.0":
-  "integrity" "sha512-xowbVaTPe9r7y7RUejcK73/j8tt2jfiyTednOvHbA8JoClvMYCp+r8QegLwK/n8zWQAtZb1fFnER4XLBZXrCxA=="
-  "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.19.0.tgz"
-  "version" "0.19.0"
+"scheduler@^0.19.1":
+  "integrity" "sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA=="
+  "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.19.1.tgz"
+  "version" "0.19.1"
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
