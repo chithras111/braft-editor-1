@@ -2810,10 +2810,10 @@
   dependencies:
     "is-obj" "^2.0.0"
 
-"draft-convert@^2.0.0":
-  "integrity" "sha512-69etPa5JzZVELs4Lzobgxes1oka5IUyJC+NVIVnA9HPO5eOYLqAONFYxmav1vJjYyHsabq/20nSXj2MtIIQ4Fg=="
-  "resolved" "https://registry.npmjs.org/draft-convert/-/draft-convert-2.1.8.tgz"
-  "version" "2.1.8"
+"draft-convert@^2.0.0", "draft-convert@^2.1.12":
+  "integrity" "sha512-6Bt338J+ZA00OLlzHipd0ZcQCCrVEM0vCyXb/eDlLdY89mmQ4XWkflSD9vql8TzVJ5ENk4s8cywMO9YTaTnZyg=="
+  "resolved" "https://registry.npmjs.org/draft-convert/-/draft-convert-2.1.12.tgz"
+  "version" "2.1.12"
   dependencies:
     "@babel/runtime" "^7.5.5"
     "immutable" "~3.7.4"
