@@ -80,7 +80,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.8.7",
+    "@babel/runtime": "7.0.0-beta.55",
     "@maximusft/mergeclassnames": "github:MaximusFT/mergeClassNames",
     "braft-convert": "^2.3.0",
     "braft-extensions": "beta",
